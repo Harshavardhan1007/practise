@@ -2,9 +2,9 @@ import os
 import pandas as pd
 from dotenv import load_dotenv
 
-load_dotenv()                                   # reads .env
+load_dotenv()                                   # reads .env.
 SOURCE = os.getenv("SOURCE_PATH", "data/sales.csv")
-TARGET = os.getenv("TARGET_PATH", "output/sales.parquet")
+TARGET = os.getenv("TARGET_PATH", "output/sales_data.parquet") #data
 
 def extract() -> pd.DataFrame:
     return pd.read_csv(SOURCE)
