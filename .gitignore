@@ -2,3 +2,7 @@
 __pycache__/
 *.pyc
 .venv/
+output/
+data/*.csv
+ssh -T git@github.com
+ssh -T git@github.com.pub
