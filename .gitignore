@@ -4,3 +4,5 @@ __pycache__/
 .venv/
 output/
 data/*.csv
+practise/ssh -T git@github.com
+practise/ssh -T git@github.com.pub
