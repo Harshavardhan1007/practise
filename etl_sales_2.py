@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()                                   # reads .env.
 SOURCE = os.getenv("SOURCE_PATH", "data/sales.csv")
-TARGET = os.getenv("TARGET_PATH", "output/sales_data.parquet") #data
+TARGET = os.getenv("TARGET_PATH", "output/sales_data_2.parquet") #data
 
 def extract() -> pd.DataFrame:
     return pd.read_csv(SOURCE)
